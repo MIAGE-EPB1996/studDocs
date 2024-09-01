@@ -39,6 +39,8 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/MIAGE-EPB1996/studDocs/blob/master/blog",
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
 
         blog: {

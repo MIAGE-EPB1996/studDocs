@@ -1,0 +1,8 @@
+{
+  "label": "L2 Example Course",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "All the content for the example course"
+  }
+}
