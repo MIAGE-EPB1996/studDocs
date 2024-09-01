@@ -7,7 +7,7 @@ sidebar_position: 3
 
 First testing with Qdrants open source vector data base.
 
-Used notebook as base: 
+Used notebook as base:
 
 [github](https://github.com/lablab-ai/qdrant-q-and-a-on-pdf.git)
 
@@ -58,11 +58,11 @@ Make sure your ports are open on the VM or Firewall (port 8888)
 
 Go th the displaed served in the command line but change `127.0.0.1` to the external IP of your VM.
 
-
 # Future work
+
 - VM GPU utilization is at almost 100% with two models loaded (`llama3.1:8b` and `dunzhang/stella_en_1.5B_v5`)
-    - Maybe split into microservices with individual VMs and GPUs
-- Only one single Vectore database with multiple PDF 
-    - The problem is that the retrival will get confused and might take wrong document chunks. 
-    - Needs a metadata pre filtering such that only relevant document chunks are included
+  - Maybe split into microservices with individual VMs and GPUs
+- Only one single Vectore database with multiple PDF
+  - The problem is that the retrival will get confused and might take wrong document chunks.
+  - Needs a metadata pre filtering such that only relevant document chunks are included
 - GUI
