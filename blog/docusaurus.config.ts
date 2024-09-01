@@ -85,13 +85,19 @@ const config: Config = {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "right",
-          label: "How to use",
+          label: "Contribute",
         },
         {
           type: "docSidebar",
           sidebarId: "courseSidebar",
           position: "left",
           label: "Courses",
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "projectSidebar",
+          position: "left",
+          label: "Projects",
         },
         { to: "/tech-blog", label: "Tech Blog", position: "left" },
         { to: "/mgmt-blog", label: "Management Blog", position: "left" },
@@ -114,7 +120,11 @@ const config: Config = {
           items: [
             {
               label: "Courses",
-              to: "/docs/intro",
+              to: "/docs/courses/intro",
+            },
+            {
+              label: "Projects",
+              to: "/docs/projects/intro",
             },
           ],
         },

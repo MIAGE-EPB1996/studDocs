@@ -1,9 +1,14 @@
----
-sidebar_label: "Qdrant"
+--- 
+sidebar_label: "Simple PDF Chat"
 sidebar_position: 3
+last_update:
+  date: 01 Sep 2024 20:12:00 GMT
+  author: Etienne Baumgartner
 ---
 
-# Qdrant PDF Chat
+
+
+# Simple PDF Chat
 
 First testing with Qdrants open source vector data base.
 
