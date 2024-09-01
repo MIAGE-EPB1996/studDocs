@@ -1,6 +1,6 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
+import { themes as prismThemes } from "prism-react-renderer";
+import type { Config } from "@docusaurus/types";
+import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "StudDocs MIAGE",
@@ -40,12 +40,19 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/MIAGE-EPB1996/studDocs/blob/master/blog",
         },
+
         blog: {
+          id: "tech-blog",
+          blogTitle: "StudDocs Tech Blog",
+          blogDescription: "Interessting articles from and for MIAGE students",
+          postsPerPage: "ALL",
           showReadingTime: true,
           feedOptions: {
             type: ["rss", "atom"],
             xslt: true,
           },
+          routeBasePath: "tech-blog",
+          path: "./blog/tech/",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/MIAGE-EPB1996/studDocs/blob/master/blog",
@@ -53,6 +60,7 @@ const config: Config = {
           onInlineTags: "warn",
           onInlineAuthors: "warn",
           onUntruncatedBlogPosts: "warn",
+          authorsMapPath: "../authors.yml",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -83,7 +91,8 @@ const config: Config = {
           position: "left",
           label: "Courses",
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        { to: "/tech-blog", label: "Tech Blog", position: "left" },
+        { to: "/mgmt-blog", label: "Management Blog", position: "left" },
         {
           href: "https://github.com/MIAGE-EPB1996",
           label: "GitHub",
@@ -128,8 +137,12 @@ const config: Config = {
           title: "More",
           items: [
             {
-              label: "Blog",
-              to: "/blog",
+              label: "Tech Blog",
+              to: "/tech-blog",
+            },
+            {
+              label: "Management Blog",
+              to: "/mgmt-blog",
             },
             {
               label: "GitHub",
@@ -145,6 +158,33 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+  plugins: [
+    [
+      "@docusaurus/plugin-content-blog",
+      {
+        id: "mgmt-blog",
+        blogTitle: "StudDocs Management Blog",
+        blogDescription:
+          "Interessting management articles from and for MIAGE students",
+        postsPerPage: "ALL",
+        showReadingTime: true,
+        feedOptions: {
+          type: ["rss", "atom"],
+          xslt: true,
+        },
+        routeBasePath: "mgmt-blog",
+        // Please change this to your repo.
+        // Remove this to remove the "edit this page" links.
+        editUrl: "https://github.com/MIAGE-EPB1996/studDocs/blob/master/blog",
+        // Useful options to enforce blogging best practices
+        onInlineTags: "warn",
+        onInlineAuthors: "warn",
+        onUntruncatedBlogPosts: "warn",
+        path: "./blog/management/",
+        authorsMapPath: "../authors.yml",
+      },
+    ],
+  ],
 };
 
 export default config;
