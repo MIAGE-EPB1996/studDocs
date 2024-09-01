@@ -27,13 +27,13 @@ const FeatureList: FeatureItem[] = [
       <>
         Find study materials for your current year under the{" "}
         <code>
-          <Link to={"/docs/courses/"}>Courses</Link>
+          <Link to={"/docs/courses/intro"}>Courses</Link>
         </code>{" "}
-        directory. Check out our {" "}
+        directory. Check out our{" "}
         <code>
           <Link to={"/tech-blog"}>Tech Blog</Link>
         </code>{" "}
-        and {" "}
+        and{" "}
         <code>
           <Link to={"/mgmt-blog"}>Management Blog</Link>
         </code>{" "}
@@ -46,7 +46,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         This documentation is powered by students. You can contribute to this
-        documentation by following the steps mentioned in the {" "}
+        documentation by following the steps mentioned in the{" "}
         <code>
           <Link to={"/docs/tutorial/intro"}>tutorials</Link>
         </code>

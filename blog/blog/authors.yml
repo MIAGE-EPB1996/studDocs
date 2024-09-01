@@ -4,11 +4,10 @@ epb:
   student_info: 
     university: Panthéon-Sorbonne Paris 1
     major: MIAGE M2
-  url: www.baet.ch
+  url: https://www.baet.ch
   image_url: https://github.com/epb1996.png
   page: true
   socials:
     github: epb1996
     linkedin: etienne-baumgartner-81125b175
-    newsletter: www.baet.ch
     x: epb1996
