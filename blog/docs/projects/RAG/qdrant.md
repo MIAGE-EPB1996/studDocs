@@ -6,8 +6,6 @@ last_update:
   author: Etienne Baumgartner
 ---
 
-
-
 # Simple PDF Chat
 
 First testing with Qdrants open source vector data base.
@@ -71,3 +69,5 @@ Go th the displaed served in the command line but change `127.0.0.1` to the exte
   - The problem is that the retrival will get confused and might take wrong document chunks.
   - Needs a metadata pre filtering such that only relevant document chunks are included
 - GUI
+
+<Author author="epb"></Author>

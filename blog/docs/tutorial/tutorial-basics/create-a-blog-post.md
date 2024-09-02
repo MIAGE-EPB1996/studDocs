@@ -23,7 +23,7 @@ authors:
     title: Docusaurus maintainer
     url: https://sebastienlorber.com
     image_url: https://github.com/slorber.png
-tags: [greetings]
+tags: [docusaurus]
 ---
 
 Congratulations, you have made your first post!
@@ -32,3 +32,22 @@ Feel free to play around and edit this post as much as you like.
 ```
 
 A new blog post is now available at [http://localhost:3000/blog/greetings](http://localhost:3000/blog/greetings).
+
+### Author
+
+Note that you can also add yourself to the `./blog/authors.yml`. This is an easier way to reference yourself in future works: 
+
+```md title="blog/2021-02-28-greetings.md"
+---
+slug: greetings
+title: Greetings!
+authors: [yourNameInTheFile]
+tags: [docusaurus]
+---
+
+... Rest of the markdown ...
+```
+
+### Tags
+
+Same thing goes for new tags: `./blog/tags.yml`

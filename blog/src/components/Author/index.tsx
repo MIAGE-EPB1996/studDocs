@@ -5,6 +5,7 @@ import styles from "./styles.module.css";
 import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import Heading from "@theme/Heading";
+import { authors } from "@site/docs/authors";
 
 function MaybeLink(props) {
   if (props.href) {
@@ -42,13 +43,15 @@ function AuthorName({ name, as }) {
   }
 }
 
-const Author = ({ as = "", author, className, count }) => {
-  const { name, title, url, imageURL, email, page, studentInfo } = author;
+const Author = ({ as = "", author }) => {
+  const { name, title, url, imageURL, email, page, studentInfo } =
+    authors[author];
   const link =
     page?.permalink || url || (email && `mailto:${email}`) || undefined;
   console.log(imageURL);
   return (
     <div
+      style={{ marginTop: "3rem", marginLeft: "1rem" }}
       className={clsx(
         "avatar margin-bottom--sm ",
         "margin-top",
@@ -81,7 +84,7 @@ const Author = ({ as = "", author, className, count }) => {
               We always render AuthorSocials even if there's none
               This keeps other things aligned with flexbox layout
             */}
-          <AuthorSocials author={author} />
+          <AuthorSocials author={authors[author]} />
         </div>
       )}
     </div>

@@ -58,19 +58,4 @@ Follow the login instructions and if your Github student developer pack is activ
 
 Otherwise just google how to install it. There are videos :tv:
 
-<Author author={{
-"name": "Etienne Pascal Baumgartner",
-"email": "baume96@gmail.com",
-"title": "Fullstack Engineer @ DevoTeam",
-"studentInfo": {
-"university": "Panthéon-Sorbonne Paris 1",
-"major": "MIAGE M2"
-},
-"imageURL": "https://github.com/epb1996.png",
-"socials": {
-"github": "https://github.com/epb1996",
-"linkedin": "https://www.linkedin.com/in/etienne-baumgartner-81125b175/",
-"baet.ch":"https://epb1996.github.io/baet-cv/"
-}
-
-}}></Author>
+<Author author="epb"></Author>
