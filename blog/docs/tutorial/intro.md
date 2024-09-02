@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+last_update:
+  date: 02 Sep 2024 23:55:00 GMT
+  author: Etienne Baumgartner
 ---
 
 # Getting started
@@ -19,6 +22,14 @@ Get started by **cloning the repository**.
 ```bash
 git clone https://github.com/MIAGE-EPB1996/studDocs.git
 ```
+
+Followed by checking out a new branch.
+
+```bash
+git checkout -b <your branch name>
+```
+
+Now you can do whatever your want with the files and folder. I do not care.
 
 ### What you'll need
 
@@ -46,7 +57,26 @@ The `npm run start` command builds your website locally and serves it through a 
 
 ## Editing stuff
 
-Under `docs/courses` you will find all the markdowns that represent the different courses.  
-Under `blog/` all the current blogs are displayed. 
+`docs/courses` holds all different courses of each year
+`docs/projects` holds all noteworthy projects of some students 
+`docs/tools` holds noteworthy development and management tools 
+`docs/tutorial` don't touch it. I am warning you. 
+`blog/` holds all current tech and management blogs
 
-Open one of the markdowns and make your changes. The site at http://localhost:3000/ **reloads automatically** and displays your changes.
+Open of the markdowns or create a new one and make your changes. The site at http://localhost:3000/ **reloads automatically** and displays your changes.
+
+Just try to follow the setup of already created folders. You will get the hang of it. 
+
+## Publishing your stuff
+
+After you are happy with your changes your will have to ask to integrate your changes. 
+
+This is done by creating a PR (Pull Request) into the `develop` branch. One of the maintainers will look over your changes and accept or reject your merge attempt. 
+
+If you need help on how to create a Pull Request on Github &rarr; **use google** 
+
+:::tip Be bold
+Dont worry about failures! This is an opportunity to learn and rejection is the best thing that can happen in life. It means you will be learning stuff. Hopefully:sunglasses:
+:::
+
+<Author author="epb"></Author>

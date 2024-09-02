@@ -68,3 +68,5 @@ Its the perfect tool to create this kind if site, since it is a open source tool
 It will introduce students into several concepts of developing where each student can take part in and learn as he is providing information for the next year of students.
 
 Creating new content will be done via **GIT Pull Requests**. This introduces starting developers to this kind of working and provides a safe environment to make mistakes and learn from more experienced students.
+
+Checkout **[how you can contribute](/docs/tutorial/intro)**
