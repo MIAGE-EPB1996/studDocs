@@ -18,6 +18,8 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "https://github.com/MIAGE-EPB1996", // Usually your GitHub org/user name.
   projectName: "studDocs", // Usually your repo name.
+  deploymentBranch: "master",
+  trailingSlash: false,
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -99,6 +101,12 @@ const config: Config = {
           position: "left",
           label: "Projects",
         },
+        {
+          type: "docSidebar",
+          sidebarId: "toolsSidebar",
+          position: "left",
+          label: "Tools",
+        },
         { to: "/tech-blog", label: "Tech Blog", position: "left" },
         { to: "/mgmt-blog", label: "Management Blog", position: "left" },
         {
@@ -121,6 +129,10 @@ const config: Config = {
             {
               label: "Courses",
               to: "/docs/courses/intro",
+            },
+            {
+              label: "Tools",
+              to: "/docs/tools/intro",
             },
             {
               label: "Projects",

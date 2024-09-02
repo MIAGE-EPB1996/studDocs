@@ -1,6 +1,6 @@
 --- 
 sidebar_label: "Simple PDF Chat"
-sidebar_position: 3
+sidebar_position: 1
 last_update:
   date: 01 Sep 2024 20:12:00 GMT
   author: Etienne Baumgartner
