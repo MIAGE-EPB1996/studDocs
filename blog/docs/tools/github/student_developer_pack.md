@@ -6,6 +6,8 @@ last_update:
   author: Etienne Baumgartner
 ---
 
+# Github Student Developer Pack
+
 Great tools you would normaly have to pay for!
 
 Get started with automation, git, cloud and much more.
@@ -25,26 +27,29 @@ To get access check out **[this](https://education.github.com/discount_requests/
 You will need to add some of your information as well as wait for validation of you `etu.univ.paris1.fr` email.
 
 ## Well... Copilot here here I come
-Copilot is a ChatGPT4 based coding tool that does a lot of things for you: 
+
+Copilot is a ChatGPT4 based coding tool that does a lot of things for you:
+
 - Code completion
 - Code generation
 - Code explanation
 - Data generation
 
-Let's be honest... you will abuse the shit out of this tool but beware: 
+Let's be honest... you will abuse the shit out of this tool but beware:
 
-:::danger 
-1) **YOUR BRAIN IS GOING TO SHRINK IF YOU DONT USE IT.** 
-2) **DO NOT BLINEDLY USE AND EXECUTE CODE WRITTEN BY A MACHINE. (YES, THERE ARE SECURITY RISKS)**
-3) **YOUR PROFESSORS KNOW YOUR CODING LEVEL...**
-    - so yes they know you are using it for your excercises
-:::
+:::danger
 
-In general, do yourself a favor and also use your brain to solve problems. 
+1. **YOUR BRAIN IS GOING TO SHRINK IF YOU DONT USE IT.**
+2. **DO NOT BLINEDLY USE AND EXECUTE CODE WRITTEN BY A MACHINE. (YES, THERE ARE SECURITY RISKS)**
+3. **YOUR PROFESSORS KNOW YOUR CODING LEVEL...** - so yes they know you are using it for your excercises
+   :::
+
+In general, do yourself a favor and also use your brain to solve problems.
 
 ![Spiderman](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGt4ZWRmNGM2Nmdoa3V1YXdsMXhmMmE5azl0d3o4eXR0eTE3cHJxcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MCZ39lz83o5lC/giphy.gif)
 
 ### VSCode Extension
+
 :::tip Marketplace link
 :tada: https://marketplace.visualstudio.com/items?itemName=GitHub.copilot :tada:
 :::
@@ -53,4 +58,19 @@ Follow the login instructions and if your Github student developer pack is activ
 
 Otherwise just google how to install it. There are videos :tv:
 
+<Author author={{
+"name": "Etienne Pascal Baumgartner",
+"email": "baume96@gmail.com",
+"title": "Fullstack Engineer @ DevoTeam",
+"studentInfo": {
+"university": "Panthéon-Sorbonne Paris 1",
+"major": "MIAGE M2"
+},
+"imageURL": "https://github.com/epb1996.png",
+"socials": {
+"github": "https://github.com/epb1996",
+"linkedin": "https://www.linkedin.com/in/etienne-baumgartner-81125b175/",
+"baet.ch":"https://epb1996.github.io/baet-cv/"
+}
 
+}}></Author>
