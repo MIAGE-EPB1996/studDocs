@@ -1,0 +1,31 @@
+# The name of the workflow
+name: GitHub Actions Demo
+# Dynamically sets the run name to include the GitHub username who triggered the workflow
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+# The workflow is triggered by a push event
+on: [push]
+jobs:
+  # Defines a job named Explore-GitHub-Actions
+  Explore-GitHub-Actions:
+    # Specifies that the job should run on the latest version of Ubuntu
+    runs-on: ubuntu-latest
+    steps:
+      # Outputs a message indicating that the job was triggered by a specific event
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+      # Outputs a message indicating the operating system of the runner
+      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
+      # Outputs the branch name and repository name
+      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
+      # Uses the actions/checkout@v4 action to check out the repository code
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      # Outputs a message indicating that the repository has been cloned to the runner
+      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
+      # Outputs a message indicating that the workflow is ready to test the code
+      - run: echo "🖥️ The workflow is now ready to test your code on the runner."
+      # Lists the files in the repository directory
+      - name: List files in the repository
+        run: |
+          ls ${{ github.workspace }}
+      # Outputs the job's status
+      - run: echo "🍏 This job's status is ${{ job.status }}."

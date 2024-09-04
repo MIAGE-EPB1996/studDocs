@@ -11,7 +11,7 @@ export const authors = {
     socials: {
       github: "https://github.com/epb1996",
       linkedin: "https://www.linkedin.com/in/etienne-baumgartner-81125b175/",
-      "baet.ch": "https://epb1996.github.io/baet-cv/",
+      /* "baet.ch": "https://epb1996.github.io/baet-cv/", */
     },
   },
   "example-author": {
