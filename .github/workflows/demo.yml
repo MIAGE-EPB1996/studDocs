@@ -2,8 +2,12 @@
 name: GitHub Actions Demo
 # Dynamically sets the run name to include the GitHub username who triggered the workflow
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-# The workflow is triggered by a push event
-on: [push]
+# The workflow is triggered by a push event or pull request to the master branch
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
 jobs:
   # Defines a job named Explore-GitHub-Actions
   Explore-GitHub-Actions:

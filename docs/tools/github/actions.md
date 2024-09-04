@@ -55,21 +55,21 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
 ```
 
-Push this code and checkout under `Actions`.
+3. Push this code and checkout out the results under `Actions`.
+   ![Github Action Demo](image.png)
+
 
 ## Use cases
 
 Check out **[ these use cases](https://docs.github.com/en/actions/use-cases-and-examples)** for inspirations and instructions.
 
-In this tool guide I will mostly use it to automate testing, since it will have multiple benefits.
+You might mostly use it to automate testing, since it will have the most benefits, such as:
 
 - You will be more confident in your code
 - Your professors will love it
 - Your current / next employer will love it
 
-It's a good practice which you should start applying to your work.
-
-### Testing
+It's a good practice which you should start applying to your work, since you will only have to set it up once and it will guarantee some code quality.
 
 **Imagine the following:**
 
@@ -77,7 +77,6 @@ It's a good practice which you should start applying to your work.
 
 This is perfect for automated workflows via actions.
 
-Github action allow you to run all the tests you created automatically when you push your code
-Afterwards you can setup guards that won't allow any Pull Requests into your main branch without all tests succeeding.
+Github action allow you to run all the tests you created automatically when you push or try to merge your code. 
 
 <Author author="epb"></Author>
