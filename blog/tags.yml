@@ -7,3 +7,13 @@ motivation:
   label: Motivation
   permalink: /motivation
   description: Application motivation
+  
+autmation:
+  label: Automation
+  permalink: /automation
+  description: Automation tag description
+
+github:
+  label: GitHub
+  permalink: /github
+  description: GitHub tag description
