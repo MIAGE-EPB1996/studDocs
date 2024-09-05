@@ -15,7 +15,7 @@ Github actions is an automation platform that can run your tasks on code such as
 <!-- truncate -->
 
 :::tip Blog post
-Check out this blog post which talks about testing and touches on workflow integration of testing
+Check out **[this blog post section](/tech-blog/testing-is-important#github-actions-integration)** talks about testing and touches on workflow integration of testing
 :::
 
 ## Demo
@@ -62,7 +62,6 @@ jobs:
 3. Push this code and checkout out the results under `Actions`.
    ![Github Action Demo](./assets/image.png)
 
-
 ## Use cases
 
 Check out **[ these use cases](https://docs.github.com/en/actions/use-cases-and-examples)** for inspirations and instructions.
@@ -82,7 +81,5 @@ It's a good practice which you should start applying to your work, since you wil
 This is perfect for automated workflows via actions.
 
 Github action allow you to run all the tests you created automatically when you push or try to merge your code.
-
-
 
 <Author author="epb"></Author>
