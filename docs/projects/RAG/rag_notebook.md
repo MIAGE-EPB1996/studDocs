@@ -1,5 +1,5 @@
---- 
-sidebar_label: "Simple PDF Chat"
+---
+sidebar_label: "Simple PDF Chat via RAG"
 sidebar_position: 1
 last_update:
   date: 01 Sep 2024 20:12:00 GMT
@@ -16,6 +16,16 @@ Used notebook as base:
 
 ## VM setup
 
+Used template:
+
+- [Template](https://console.cloud.google.com/marketplace/product/click-to-deploy-images/deeplearning)
+- Changed to Cuda 12.1 and pytorch as default installation
+- Check installation of CUDA and NVIDIA drivers directly
+
+Make also sure of the following:
+
+- Access to the VM for the Notebook service (open the port in the GCP firewall)
+
 :::danger[Important]
 
 Make sure you have the CUDO toolkit and Drivers installed for GPU optimization. If not follow the instructions on this [page](https://developer.nvidia.com/cuda-downloads).
@@ -30,28 +40,17 @@ Also make sure your ollama server is running.
 
 :::
 
+### Packages and dependencies
+
 Run these setup in your VM to get all the needed resources:
 
 ```bash
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O Miniconda3-latest-Linux-x86_64.sh
-bash Miniconda3-latest-Linux-x86_64.sh -b
-source ~/miniconda3/etc/profile.d/conda.sh
-
-
-conda create --name myenv python=3.11 -y
-conda activate myenv
-
-conda install notebook pytorch torchvision torchaudio cudatoolkit-dev pytorch-cuda=12.4 -c pytorch -c nvidia
-
-pip install pdfplumber qdrant-client transformers sentence-transformers flash_attn ollama
+pip install notebook pdfplumber qdrant-client transformers sentence-transformers flash_attn ollama
 ```
 
 ### Start the notebook server:
 
 ```bash
-source ~/miniconda3/etc/profile.d/conda.sh
-conda activate ~/miniconda3/envs/myenv
-
 cd <your path to notebook folder>
 
 jupyter notebook --ip="0.0.0.0"
