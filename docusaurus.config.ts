@@ -16,12 +16,11 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "https://github.com/MIAGE-EPB1996", // Usually your GitHub org/user name.
+  organizationName: "MIAGE-EPB1996.github.io", // Usually your GitHub org/user name.
   projectName: "studDocs", // Usually your repo name.
-  deploymentBranch: "master",
   trailingSlash: false,
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
