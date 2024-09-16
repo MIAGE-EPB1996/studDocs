@@ -1,0 +1,13 @@
+epb:
+  name: Etienne Pascal Baumgartner
+  email: baume96@gmail.com
+  title: Fullstack Engineer @ DevoTeam 
+  student_info: 
+    university: Panthéon-Sorbonne Paris 1
+    major: MIAGE M2
+  image_url: https://github.com/epb1996.png
+  page: true
+  socials:
+    github: epb1996
+    linkedin: etienne-baumgartner-81125b175
+    x: epb1996
