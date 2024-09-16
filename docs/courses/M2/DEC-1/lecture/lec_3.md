@@ -49,7 +49,7 @@ Loading data into another data architecture
 - needs consideration for performance
 - Automatization
 
-Straegies: 
+Strategies: 
 - full: all data at one time
 - delta: only new data is loaded
 

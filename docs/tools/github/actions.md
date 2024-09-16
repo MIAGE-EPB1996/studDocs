@@ -15,7 +15,7 @@ Github actions is an automation platform that can run your tasks on code such as
 <!-- truncate -->
 
 :::tip Blog post
-Check out **[this blog post section](/tech-blog/testing-is-important#github-actions-integration)** talks about testing and touches on workflow integration of testing
+Check out **[this blog post section](\tech-blog\testing-is-important#github-actions-integration)** talks about testing and touches on workflow integration of testing
 :::
 
 ## Demo
