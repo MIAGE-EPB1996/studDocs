@@ -28,7 +28,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en", "fr"],
+    locales: ["en"],
   },
 
   presets: [
@@ -39,7 +39,7 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/MIAGE-EPB1996/studDocs/blob/master/blog",
+          editUrl: "https://github.com/MIAGE-EPB1996/studDocs/blob/master/",
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
@@ -58,7 +58,7 @@ const config: Config = {
           path: "./blog/tech/",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/MIAGE-EPB1996/studDocs/blob/master/blog",
+          editUrl: "https://github.com/MIAGE-EPB1996/studDocs/blob/master",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
