@@ -17,3 +17,13 @@ github:
   label: GitHub
   permalink: /github
   description: GitHub tag description
+
+mémoire: 
+  label: Mémoire
+  permalink: /mémoire
+  description: Mémoire tag description
+
+latex:
+  label: LaTeX
+  permalink: /latex
+  description: LaTeX tag description  
