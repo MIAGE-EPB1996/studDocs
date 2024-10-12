@@ -25,11 +25,15 @@ const FeatureList: FeatureItem[] = [
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
-        Find study materials for your current year under the{" "}
+        Get inspired by{" "}
         <code>
-          <Link to={"/docs/courses/intro"}>Courses</Link>
+          <Link to={"/projects"}>Projects</Link>
         </code>{" "}
-        directory. Check out our{" "}
+        and advance your progress by exploring other peoples favorite{" "}
+        <code>
+          <Link to={"/tools"}>Tools</Link>
+        </code>{" "}
+        Also check out our{" "}
         <code>
           <Link to={"/tech-blog"}>Tech Blog</Link>
         </code>{" "}
