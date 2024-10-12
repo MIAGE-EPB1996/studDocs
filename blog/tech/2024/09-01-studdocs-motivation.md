@@ -31,19 +31,25 @@ These materials can include:
 - Personal experiences and ideas
 - Interesting and cool stuff
 
-
 ![apes](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWIxM2d5N2h5NXZsejI0eW9vbnZvYXk3Nng0ano5ZW05a2pqc291NiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/evB90wPnh5LxG3XU5o/giphy.gif)
 
 ## Features
 
-There are **3 main parts** of this site:
-
-### Courses
+<!-- ### Courses
 
 Should be the place where all course specific materials should be gathered.
 
     - partitioned into the different study levels (**L1**, **L2**, **L3**, **M1**, **M2**)
-    - subsections for all the different courses of each study level (ex. **INF4 for M1**)
+    - subsections for all the different courses of each study level (ex. **INF4 for M1**) -->
+
+### Projects
+
+Got an interesting project that you want to share and make accessible to other people?  
+Here is the place to do it.
+
+### Tools
+
+Showcase and explain the tools that you are using!
 
 ### Tech Blog
 

@@ -88,12 +88,12 @@ const config: Config = {
           position: "right",
           label: "Contribute",
         },
-        {
+        /* {
           type: "docSidebar",
           sidebarId: "courseSidebar",
           position: "left",
           label: "Courses",
-        },
+        }, */
         {
           type: "docSidebar",
           sidebarId: "projectSidebar",
@@ -125,10 +125,10 @@ const config: Config = {
         {
           title: "Docs",
           items: [
-            {
+           /*  {
               label: "Courses",
               to: "/docs/courses/intro",
-            },
+            }, */
             {
               label: "Tools",
               to: "/docs/tools/intro",
